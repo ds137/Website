@@ -6,8 +6,12 @@
         <title>What is going on in the area?</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- import google fonts -->
+        
+        <!-- import google fonts -->
         <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+
+        <!-- font awesome for icons -->
+        <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.css">
 
         <!-- css files -->
         <link rel="stylesheet" href="css/bootstrap.css">
@@ -34,8 +38,15 @@
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="#">Home</a></li>
                         <li><a href="#">In the area</a></li>
-                        <li><a href="#">About us</a></li>
+                        <li><a href="about.html">About us</a></li>
                     </ul>
+                    <form class="navbar-form navbar-right" role="search">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search">
+                        </div>
+                        <!-- change href to in this area page when created -->
+                        <a class="btn btn-default" href="#"><i class="fa fa-map-marker" aria-hidden="true" style="font-size: 20px;"></i> <span style="padding-left: 6px;">Search</span></a>
+                    </form>
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
         </nav>
@@ -46,7 +57,7 @@
                 <h5>Find the best places to visit here</h5>
             </div>
         </section>
-<!-- This is the start of page content -->
+        <!-- This is the start of page content -->
 
         <section id="content">
             <div class="container">
@@ -60,89 +71,108 @@
                     <!-- bootstrap box has to add up to 12 -->
                     <div class="col-md-4">
                         <div class="event-box">
-                            <div class="event-inner" id="music">
-                                <div class="event-info">
-                                    <hr>
-                                    <h1>
-                                        <strong>Music</strong>
-                                    </h1>
-                                    <hr>
+                            <a href="https://www.sheffieldmusicscene.co.uk/w_city_by_date_Sheffield.html" target="_blank">
+                                <div class="event-inner" id="music">
+                                    <div class="event-info">
+                                        <hr>
+                                        <h1>
+                                            <strong>Music</strong>
+                                        </h1>
+                                        <hr>
+                                    </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="event-box">
-                            <div class="event-inner" id="food">
-                                <div class="event-info">
-                                    <hr>
-                                    <h1>
-                                        <strong>Food</strong>
-                                    </h1>
-                                    <hr>
+                            <a href="https://theculturetrip.com/europe/united-kingdom/england/articles/sheffield-s-10-best-restaurants-and-top-local-eats/" target="_blank">
+                                <div class="event-inner" id="food">
+                                    <div class="event-info">
+                                        <hr>
+                                        <h1>
+                                            <strong>Food</strong>
+                                        </h1>
+                                        <hr>
+                                    </div>
                                 </div>
-                            </div>
-                            </div>
+                            </a>
+                        </div>
                     </div>
                     <div class="col-md-4">
                         <div class="event-box">
-                            <div class="event-inner" id="attractions">
-                                <div class="event-info">
-                                    <hr>
-                                    <h1>
-                                        <strong>Attractions</strong>
-                                    </h1>
-                                    <hr>
+                            <a href="https://www.yorkshire.com/places/south-yorkshire" target="_blank">
+                                <div class="event-inner" id="attractions">
+                                    <div class="event-info">
+                                        <hr>
+                                        <h1>
+                                            <strong>Attractions</strong>
+                                        </h1>
+                                        <hr>
+                                    </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-4">
                         <div class="event-box">
-                            <div class="event-inner" id="entertainment">
-                                <div class="event-info">
-                                    <hr>
-                                    <h1>
-                                        <strong>Entertainment</strong>
-                                    </h1>
-                                    <hr>
+                            <a href="http://www.welcometosheffield.co.uk/visit/events" target="_blank">
+                                <div class="event-inner" id="entertainment">
+                                    <div class="event-info">
+                                        <hr>
+                                        <h1>
+                                            <strong>Entertainment</strong>
+                                        </h1>
+                                        <hr>
+                                    </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="event-box">
-                            <div class="event-inner" id="culture">
-                                <div class="event-info">
-                                    <hr>
-                                    <h1>
-                                        <strong>Culture</strong>
-                                    </h1>
-                                    <hr>
+                            <a href="https://theculturetrip.com/europe/united-kingdom/england/articles/the-10-best-things-to-do-and-see-in-sheffield/" target="_blank">
+                                <div class="event-inner" id="culture">
+                                    <div class="event-info">
+                                        <hr>
+                                        <h1>
+                                            <strong>Culture</strong>
+                                        </h1>
+                                        <hr>
+                                    </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="event-box">
-                            <div class="event-inner" id="shopping">
-                                <div class="event-info">
-                                    <hr>
-                                    <h1>
-                                        <strong>Shopping</strong>
-                                    </h1>
-                                    <hr>
+                            <a href="https://www.meadowhall.co.uk/" target="_blank">
+                                <div class="event-inner" id="shopping">
+                                    <div class="event-info">
+                                        <hr>
+                                        <h1>
+                                            <strong>Shopping</strong>
+                                        </h1>
+                                        <hr>
+                                    </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
         <footer>
-
+            <h2 class="text-center">Find Us!</h2>
+            <ul id="social-links">
+                <!-- target="_blank" - opens in new tab -->
+                <li><a href="https://www.facebook.com/codefirstgirls/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href="https://twitter.com/CodeFirstGirls" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                <li><a href="https://github.com/ds137/Website" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.instagram.com/codefirstgirls/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            </ul>
         </footer>
     </body>
 </html>
