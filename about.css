@@ -24,3 +24,28 @@ h3{
   text-align: center;
   background-color: lightgray;
   font-family: 'Dosis', sans-serif;
+  footer {
+      margin-top: 20px;
+      width: 100%;
+      margin-bottom: 20px;
+  }
+
+  footer #social-links {
+      text-align: center;
+  }
+
+  footer #social-links li {
+      padding-right: 25px;
+      font-size: 3.5em;
+      display: inline;
+  }
+
+  footer #social-links li a {
+      color: #333333;
+      transition: 0.5s;
+  }
+
+  footer #social-links li a:hover {
+      color: #ff9999;
+      transition: 0.5s;
+  }
