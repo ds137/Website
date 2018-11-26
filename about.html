@@ -1,7 +1,26 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
-  <link rel="stylesheet" type="text/css" href="index.css">
+
+  <!-- bootstrap needs these to work on other browsers -->
+    <meta charset="UTF-8">
+    <title>About us</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- import google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+
+    <!-- font awesome for icons -->
+    <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.css">
+
+    <!-- css files -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel='stylesheet' type='text/css' href='about.css'>
+
+    <!-- js files  -->
+    <script type="text/javascript" src="js/jQuery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
   </head>
 <body>
   <nav class="navbar navbar-default navbar-fixed-top">
@@ -18,11 +37,50 @@
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav">
-                  <li class="active"><a href="#">Home</a></li>
+                  <li><a href="index.html">Home</a></li>
                   <li><a href="#">In the area</a></li>
-                  <li><a href="#">About us</a></li>
+                  <li class="active"><a href="about.html">About us</a></li>
               </ul>
+              <form class="navbar-form navbar-right" role="search">
+                  <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Search">
+                  </div>
+                  <!-- change href to in this area page when created -->
+                  <a class="btn btn-default" href="#"><i class="fa fa-map-marker" aria-hidden="true" style="font-size: 20px;"></i> <span style="padding-left: 6px;">Search</span></a>
+              </form>
           </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
   </nav>
+  <hr>
+<div class="container-fluid">
+  <div class="row">
+    <img src="img/cfg.png" alt="CodeFirst:Girls">
+    <h1>Code First: Girls works with companies and with men and women directly, to help increase the number of women in tech</h1>
+    <h3>Through Code First, we have collaborated in order to create this website. We hope that through using this site, you can discover opportunities in your area that are as enjoyable as this has been for us</h3>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-4">
+      <h1>Kate</h1>
+      <img src="img/kate.jpg" alt="Kate Portrait">
+      <p>I am a second year student of Education in Sheffield. I am a total foodie and love to cook!
+      </p>
+    </div>
+    <div class="col-lg-4">
+      <h1>Daisy</h1>
+      <img src="img/daisy.png" alt="Daisy Portrait">
+      <p>I am a ? year student of ? I enjoy ?, ? and ?
+      </p>
+    </div>
+    <div class="col-lg-4">
+      <h1>Natalie</h1>
+      <img src="img/natalie.png" alt="Natalie Portrait">
+      <p> I am currently studying ? and like ?, in my free time </p>
+    </div>
+  </div>
+</div>
+
 </body>
+</html>
