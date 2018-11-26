@@ -3,7 +3,7 @@ html, body {
 }
 
 h1{
-  color: salmon;
+  color: #ff751a;
   text-align: center;
   background-color: lightgray;
   font-family: 'Dosis', sans-serif;
@@ -13,14 +13,14 @@ img {
   background-color: lightgray
 }
 p{
-  color: salmon;
+  color: #ff751a;
   text-align: center;
   background-color: lightgray;
   font-size: 24px;
   font-family: 'Dosis', sans-serif;
 }
 h3{
-  color: salmon;
+  color: #ff751a;
   text-align: center;
   background-color: lightgray;
   font-family: 'Dosis', sans-serif;
