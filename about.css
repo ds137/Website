@@ -1,4 +1,4 @@
-html {
+html, body {
   background-color: lightgray;
 }
 
@@ -6,6 +6,7 @@ h1{
   color: salmon;
   text-align: center;
   background-color: lightgray;
+  font-family: 'Dosis', sans-serif;
 }
 img {
   align-content: center;
@@ -15,8 +16,11 @@ p{
   color: salmon;
   text-align: center;
   background-color: lightgray;
+  font-size: 24px;
+  font-family: 'Dosis', sans-serif;
 }
 h3{
   color: salmon;
   text-align: center;
   background-color: lightgray;
+  font-family: 'Dosis', sans-serif;
