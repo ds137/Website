@@ -5,7 +5,42 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel='stylesheet' type='text/css' href='area.css'>
 </head>
+<!-- import google fonts -->
+<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+
+<!-- font awesome for icons -->
+<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.css">
+
   <body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="area.html">In the area</a></li>
+                    <li><a href="about.html">About us</a></li>
+                </ul>
+                <form class="navbar-form navbar-right" role="search">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                    <!-- change href to in this area page when created -->
+                    <a class="btn btn-default" href="#"><i class="fa fa-map-marker" aria-hidden="true" style="font-size: 20px;"></i> <span style="padding-left: 6px;">Search</span></a>
+                </form>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+
     <h1><center><strong>Your Local Area</strong></center></h1>
     <div class="jumbotron">
       <div class="row">
@@ -13,7 +48,8 @@
           <div style="width:40%; padding:0 10px 0 0; float:left;">
             <div class="container">
              <img class="img-responsive" src="img1.jpg" alt="Avatar" class="image">
-              <div class="overlay"><overlay class="active"><a href="#"><a href="https://www.skiddle.com/whats-on/Sheffield/">City Centre</a></overlay></div>
+              <div class="overlay"><overlay class="active">
+                <a href="#"><a href="https://www.skiddle.com/whats-on/Sheffield/">City Centre</a></overlay></div>
             </div>
           </div>
          </div>
